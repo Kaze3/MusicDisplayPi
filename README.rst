@@ -1,4 +1,4 @@
-MusicDisiplayPi
+MusicDisplayPi
 ===============
 
 *MusicDisplayPi* is a Python program for displaying network music player information (from e.g. `mpd <http://www.musicpd.org/>`_) on a text display.
