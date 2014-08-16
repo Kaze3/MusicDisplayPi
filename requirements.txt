@@ -1,0 +1,4 @@
+RPLCD==0.3.0
+RPi.GPIO==0.5.6
+enum34==1.0
+python-mpd2==0.5.3
