@@ -6,7 +6,6 @@ class ScreenDisplay():
             return
 
         self.flash[line] = flashing
-        #self.flash_indices[line] = self.flash_time
 
     def get_number_of_lines(self):
         return self.lines
@@ -32,6 +31,7 @@ class ScreenDisplay():
 
     def update_lines(self, update):
         ''' Update the information to be displayed '''
+        print(update)
         if len(update) != self.lines:
             return
     

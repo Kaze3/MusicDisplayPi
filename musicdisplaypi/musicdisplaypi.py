@@ -1,5 +1,6 @@
 import interface.mpdinterface
 import display.pilcddisplay
+import formatter.standardformatter
 import controller
 import time
 import sys
@@ -13,7 +14,8 @@ def main():
     
     cont = controller.MainController(
         interface.mpdinterface.MpdInterface(),
-        disp)
+        disp,
+        formatter.standardformatter.StandardFormatter())
 
     cont.init()
 
