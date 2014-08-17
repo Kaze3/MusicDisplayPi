@@ -44,7 +44,7 @@ class MpdInterface(MainInterface):
             ('album', song['album']),
             ('genre', song['genre']),
             ('date', song['date']),
-            ('time', song['time']),
+            ('time', str(float(song['time']))),
             ('elapsed', status['elapsed'])
          ])
 
